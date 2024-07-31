@@ -11,7 +11,7 @@ def answers_to_questions(question):
         "how many states are there in india?": "28",
         "how are you?": "Hello! I'm a chatbot, so I don't have feelings, but I'm here to assist you. How can I help you today?",
         "what is the population of the world?": "8.1 billion",
-        "what programming language has been used to code you in?": "Python"
+        "what programming language are you coded in?": "Python"
     }
 # converting all questions to lower case
     return responses.get(question.lower(), "I'm sorry, I do not understand that question.")
